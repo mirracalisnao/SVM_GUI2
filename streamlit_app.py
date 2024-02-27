@@ -15,11 +15,11 @@ from sklearn.metrics import classification_report
 def app():
     # Display the DataFrame with formatting
     st.title("Support Vector Machine Classifier")
-    text = """Louie F. Cervantes, M.Eng. \n\n
+    text = """Cherry Mirra Calisnao  BSCS 3A \n\n
     CCS 229 - Intelligent Systems
     Computer Science Department
     College of Information and Communications Technology
-    West Visayas State University"""
+    West Visayas State University"""   # """ for long text
     st.text(text)
 
     st.subheader('Description')
